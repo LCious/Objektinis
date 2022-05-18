@@ -162,7 +162,58 @@ Failas kursiokai1000000.txt
 Studentu rusiavimas i dvi grupes uztruko: 1.432s.
 Bendras failo kursiokai1000000.txt testavimo laikas: 73.69s.
 ```
+### OPTIMIZUOTAS VECTOR ir paprastas (2strategija) ###
+```
+Ar norite atlikti programos veikimo (greicio) analize? (Y/N): Y
 
+Pasirinkite testavimo strategija (1 / 2 / 3):
+(1 - studentai yra skaidomi i du naujus konteinerius)
+(2 - studentai yra skaidomi panaudojant tik viena nauja konteineri)
+(3 - programos veikimo spartos palyginimas naudojant optimizuota ir paprasta vector konteineri (naudojantis 2 strategija))
+3
+
+Ar norite sugeneruoti studentu failus? (Y/N): Y
+
+Ar norite apskaiciuoti mediana(1), vidurki(2)? 2
+VYKDOMAS VECTOR VEIKIMO SPARTOS PALYGINIMAS. 
+(Palyginimui naudojama antroji strategija)
+
+--------------------------- Pradedamas testavimas naudojant vector: -----------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.102s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.011s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.876s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.114s.
+Bendras failo kursiokai100000.txt testavimo laikas: 9.778s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 1.14s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 110.58s.
+
+--------------------------- Pradedamas testavimas naudojant optimizuota vector: -----------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.09s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.007s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.942s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.075s.
+Bendras failo kursiokai100000.txt testavimo laikas: 10.232s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.722s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 110.576s.
+```
 
 
 # Programos įdiegimas ir naudojimasis #
