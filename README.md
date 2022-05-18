@@ -16,6 +16,53 @@ Paleidus programą yra prašoma įvesti duomenis:
 ```
 File detected.
 
+Ka norite daryti? Skaityti duomenis is failo ar duomenis ivesti? (y - file / n - manual): n
+Iveskite varda: Marius
+
+Iveskite pavarde: Mantvydas
+
+Ar zinote namu darbu kieki? (Y/N): Y
+
+Iveskite namu darbu kieki:3
+
+Ar norite, kad pazymiai butu generuojami automatiskai? (Y/N): n
+
+Iveskite atliktu namu darbu pazymius:
+10 4 8
+
+Iveskite egzamino pazymi: 9
+
+Ar norite prideti studenta? (Y/N) y
+Iveskite varda: Laurynas
+
+Iveskite pavarde: Laurynauskas
+
+Ar zinote namu darbu kieki? (Y/N): n
+
+Sugeneruotas atliktu namu darbu kiekis:24
+
+Ar norite, kad studento pazymiai butu sugeneruojami automatiskai? (Y/N): y
+
+Sugeneruoti pazymiai:4 8 1 2 9 8 4 3 4 7 7 5 9 6 7 7 8 8 2 1 6 6 2 4
+Egzamino rezultatas:1
+Ar norite prideti studenta? (Y/N) n
+
+Ka noretumete apskaiciuoti mediana(1), vidurki(2), ar abu(3)? 3
+
+
+
+
+
+Vardas         Pavarde        Galutinis (vid.)  Galutinis (med.)
+----------------------------------------------------------------
+Laurynas       Laurynauskas   2.73              3.00
+Marius         Mantvydas      8.33              7.00
+```
+
+### Programos veikimas įvedant duomenis iš failo: ###
+```
+File detected.
+
 Ka norite daryti? Skaityti duomenis is failo ar duomenis ivesti? (y - file / n - manual): y
 
 Ka noretumete apskaiciuoti mediana(1), vidurki(2), ar abu(3)? 3
@@ -46,5 +93,13 @@ Toma           Tomaityte      7.27              7.00
 # Releases #
 
 [v0.1](https://github.com/LCious/Objektinis/releases/tag/V0.1) : pirminė programos versija.
-[v0.2](https://github.com/LCious/Objektinis/releases/tag/V0.2) : duomenų nuskaitymas, vidurkio ir medianos spausdinimas kartu, rūšiavimas
+
+[v0.2](https://github.com/LCious/Objektinis/releases/tag/V0.2) : 
+  * Pridėta galimybė nuskaityti duomenis iš failo.
+  * Pridėta galimybė spausdinti vidurkį ir medianą kartu.
+  * Studentai yra automatiškai išrūšiuojami pagal jų vardus.
+ 
 [v0.3](https://github.com/LCious/Objektinis/releases/tag/V0.3) :
+  * Sukurtas `functions.cpp` failas, kuriame yra sudėtos visos programoje naudojamos funkcijos.
+  * Sukurtas `functions.hpp` header failas, kuriame yra saugoma studentų struct.
+  * Sukurtas išimčių valdymas ([Exception Handling](https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm)).
