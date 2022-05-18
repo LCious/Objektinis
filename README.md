@@ -13,7 +13,7 @@ Paleidus programą yra prašoma įvesti duomenis:
 > Galutiniai duomenys lentelėje yra automatiškai išrūšiuojami pagal studentų vardus.
 
 # Programos veikimo pavyzdys #
-
+```
 File detected.
 
 Ka norite daryti? Skaityti duomenis is failo ar duomenis ivesti? (y - file / n - manual): y
@@ -35,7 +35,7 @@ Lukas          Lukaitis       4.23              4.20
 Mantas         Mantaitis      4.92              4.60
 Monika         Monikaityte    4.72              4.80
 Toma           Tomaityte      7.27              7.00
-
+```
 # Programos įdiegimas ir naudojimasis #
 
 * Atsisiųskite vieną programos versijų iš [Releases](https://github.com/LCious/Objektinis/releases) aplanko ir ją išarchyvuokite.
