@@ -48,11 +48,6 @@ Duomenu nuskaitymas is failo uztruko: 16365ms.
 Studentu rusiavimas i dvi grupes uztruko: 1345ms.
 Surusiuotu studentu isvedimas i du naujus failus uztruko: 18348ms.
 
-
-Failas kursiokai10000000.txt
-Failo kurimas uztruko: 215415ms.
-terminate called after throwing an instance of 'std::bad_alloc'
-  what():  std::bad_alloc
 ```
 
 ### Programos veikimas neaptikus tekstinio failo ir duomenis įvedus rankiniu būdu: ###
