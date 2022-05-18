@@ -34,5 +34,6 @@ int main(){
 		choiceCheck(rt);
 		isvestis(studentas, rt);
 	}
+	cout << endl;
 	system("PAUSE");
 }
