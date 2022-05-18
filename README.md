@@ -45,6 +45,6 @@ Toma           Tomaityte      7.27              7.00
 
 # Releases #
 
-[v0.1](https://github.com/LCious/Objektinis/releases/tag/V0.1) - pirminė programos versija.
-[v0.2](https://github.com/LCious/Objektinis/releases/tag/V0.2) - duomenų nuskaitymas, vidurkio ir medianos spausdinimas kartu, rūšiavimas
-[v0.3](https://github.com/LCious/Objektinis/releases/tag/V0.3)
+[v0.1](https://github.com/LCious/Objektinis/releases/tag/V0.1) : pirminė programos versija.
+[v0.2](https://github.com/LCious/Objektinis/releases/tag/V0.2) : duomenų nuskaitymas, vidurkio ir medianos spausdinimas kartu, rūšiavimas
+[v0.3](https://github.com/LCious/Objektinis/releases/tag/V0.3) :
