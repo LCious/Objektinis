@@ -46,13 +46,6 @@ int main(){
 		sort(studentas.begin(), studentas.end(), studComp);
 		fileOutput(winner, loser, rt, "kursiokai1000000.txt");
 
-		cout << endl << "Failas kursiokai10000000.txt" << endl;
-		generateStud(10000000, "kursiokai10000000.txt");
-		Ivestis(studentas, "kursiokai10000000.txt");
-		calcFinal(studentas, rt);
-		group(studentas, winner, loser);
-		sort(studentas.begin(), studentas.end(), studComp);
-		fileOutput(winner, loser, rt, "kursiokai10000000.txt");
 	}else{						// iprasta programos eiga \/
 		if(FileExist()){
 			cout << "Ar norite skaityti duomenis is failo ar duomenis ivesti rankiniu budu? (y - file / n - manually): ";
