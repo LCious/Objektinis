@@ -192,9 +192,9 @@ Bendras failo kursiokai1000000.txt testavimo laikas: 73.69s.
   * Sukurtas studentų rūšiavimas į dvi grupes pagal pagal galutinį balą.
   * Sugrupuoti studentai yra atitinkamai išvedami į du skirtingus failus.
 
-[v0.5](https://github.com/aurimasruk/OOP-2nd-Task/releases/tag/v0.5) :
+[v0.5](https://github.com//releases/tag/v0.5) :
   * Sukurta konteinerių testavimo funkcija, kuri leidžia išmatuoti programos veikimo spartą priklausomai nuo naudojamo vieno iš trijų konteinerių.
 
-[v1.0](https://github.com/aurimasruk/OOP-2nd-Task/releases/tag/v1.0) :
+[v1.0](https://github.com//releases/tag/v1.0) :
   * Sukurta testavimo funkcija, leidžianti pasirinkti testavimo strategijos būdą.
   * Sukurta funkcija, leidžianti palyginti testavimo rezultatus tarp paprasto ir optimizuoto vektoriaus.
