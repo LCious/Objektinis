@@ -23,21 +23,146 @@ Spartos analizei buvo panaudotas kompiuteris su šiomis specifikacijomis:
 * SATA 1TB HDD
 
 
-### Duomenų nuskaitymas ###
+### 1 Strategija ###
+```
+Ar norite atlikti programos veikimo (greicio) analize? (Y/N): Y
 
-Container |   1000  |  10000  |  100000 | 1000000 | 10000000 |
-----------|---------|---------|---------|---------|----------|
-Vector    | 0.016s. | 0.152s. | 1.345s. | 13.513s.| 130.762s.|
-Deque     | 0.020s. | 0.159s. | 1.465s. | 14.649s.| 142.873s.|
-List      | 0.018s. | 0.153s. | 1.449s. | 15.304s.| 150.835s.|
+Pasirinkite testavimo strategija (1 / 2 / 3):
+(1 - studentai yra skaidomi i du naujus konteinerius)
+(2 - studentai yra skaidomi panaudojant tik viena nauja konteineri)
+(3 - programos veikimo spartos palyginimas naudojant optimizuota ir paprasta vector konteineri (naudojantis 2 strategija))
+1
 
-### Duomenų grupavimas ###
+Ar norite sugeneruoti studentu failus? (Y/N): Y
 
-Container |   1000  |  10000  |  100000 | 1000000 | 10000000 |
-----------|---------|---------|---------|---------|----------|
-Vector    | 0.010s. | 0.050s. | 0.372s. | 1.507s. | 14.449s. |
-Deque     |    0s.  | 0.007s. | 0.077s. | 0.869s. |  8.765s. |
-List      | 0.002s. | 0.007s. | 0.085s. | 0.989s. |  9.823s. |
+Ar norite apskaiciuoti mediana(1), vidurki(2)? 2
+NAUDOJAMA 1 STRATEGIJA. 
+
+--------------------------- Pradedamas testavimas naudojant vector: -----------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.001s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.098s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.008s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.833s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.116s.
+Bendras failo kursiokai100000.txt testavimo laikas: 9.731s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 1.267s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 117.697s.
+
+-------------------------- Pradedamas testavimas naudojant deque: ------------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.092s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.005s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.936s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.062s.
+Bendras failo kursiokai100000.txt testavimo laikas: 10.014s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.724s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 118.975s.
+
+----------------------------- Pradedamas testavimas naudojant list: ---------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.077s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.009s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.768s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.08s.
+Bendras failo kursiokai100000.txt testavimo laikas: 7.721s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.868s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 79.576s.
+```
+
+### 2 Strategija ###
+```
+Ar norite atlikti programos veikimo (greicio) analize? (Y/N): Y
+
+Pasirinkite testavimo strategija (1 / 2 / 3):
+(1 - studentai yra skaidomi i du naujus konteinerius)
+(2 - studentai yra skaidomi panaudojant tik viena nauja konteineri)
+(3 - programos veikimo spartos palyginimas naudojant optimizuota ir paprasta vector konteineri (naudojantis 2 strategija))
+2
+
+Ar norite sugeneruoti studentu failus? (Y/N): Y
+
+Ar norite apskaiciuoti mediana(1), vidurki(2)? 2
+NAUDOJAMA 2 STRATEGIJA. 
+
+--------------------------- Pradedamas testavimas naudojant vector: -----------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.091s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.01s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.86s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.131s.
+Bendras failo kursiokai100000.txt testavimo laikas: 9.917s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 1.316s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 119.713s.
+
+-------------------------- Pradedamas testavimas naudojant deque: ------------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.084s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.012s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.89s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.122s.
+Bendras failo kursiokai100000.txt testavimo laikas: 10.24s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 1.233s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 114.293s.
+
+----------------------------- Pradedamas testavimas naudojant list: ---------------------------------------------
+
+Failas kursiokai1000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0s.
+Bendras failo kursiokai1000.txt testavimo laikas: 0.073s.
+
+Failas kursiokai10000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.015s.
+Bendras failo kursiokai10000.txt testavimo laikas: 0.746s.
+
+Failas kursiokai100000.txt
+Studentu rusiavimas i dvi grupes uztruko: 0.146s.
+Bendras failo kursiokai100000.txt testavimo laikas: 7.166s.
+
+Failas kursiokai1000000.txt
+Studentu rusiavimas i dvi grupes uztruko: 1.432s.
+Bendras failo kursiokai1000000.txt testavimo laikas: 73.69s.
+```
+
 
 
 # Programos įdiegimas ir naudojimasis #
