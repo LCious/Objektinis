@@ -147,3 +147,9 @@ Toma           Tomaityte      7.27              7.00
   * Sukurtas `functions.cpp` failas, kuriame yra sudėtos visos programoje naudojamos funkcijos.
   * Sukurtas `functions.hpp` header failas, kuriame yra saugoma studentų struct.
   * Sukurtas išimčių valdymas ([Exception Handling](https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm)).
+
+[v0.4](https://github.com/LCious/Objektinis/releases/tag/v0.4) :
+  * Sukurta funkcija leidžianti atlikti programos veikimo greičio (spartos) analizę.
+  * Sukurta funkcija leidžianti sugeneruoti atsitiktinius studentų sarašų failus (1'000, 10'000, 100'000, 1'000'000, 10'000'000 įrašų).
+  * Sukurtas studentų rūšiavimas į dvi grupes pagal pagal galutinį balą.
+  * Sugrupuoti studentai yra atitinkamai išvedami į du skirtingus failus.
