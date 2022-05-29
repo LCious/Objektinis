@@ -220,7 +220,7 @@ Bendras failo kursiokai1000000.txt testavimo laikas: 110.576s.
 
 * Atsisiųskite vieną programos versijų iš [Releases](https://github.com/LCious/Objektinis/releases) aplanko ir ją išarchyvuokite.
 * Atsisiųskite jums patinkančią __C++__ palaikančią programą (_[Visual Studio](https://visualstudio.microsoft.com/downloads/), [CodeBlocks](https://www.codeblocks.org/downloads/)_).
-* Atsidarykite pateiktą programos kodą ir jį paleiskite.
+* Atsidarykite pateiktą programos kodą ir jį paleiskite arba komandinėje eiltuėje įrašykite `g++ -o main *.cpp` ir paleiskite su `./main`
 
 
 # Releases #
